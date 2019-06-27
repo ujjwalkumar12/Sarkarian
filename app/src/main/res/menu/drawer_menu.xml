@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+        <item android:id="@+id/nav_dashboard"
+            android:icon="@drawable/home"
+            android:title="Home"
+            />
+
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/home"
+            android:title="Result"
+            />
+        <item android:id="@+id/nav_instructions"
+            android:icon="@drawable/home"
+            android:title="Admit Card"
+            />
+
+            <item android:id="@+id/nav_feedback"
+                android:icon="@drawable/home"
+                android:title="Answer Key"/>
+
+            <item android:id="@+id/nav_about_us"
+                android:icon="@drawable/home"
+                android:title="Syllabus"/>
+
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/home"
+                android:title="Jobs"/>
+
+
+
+
+</menu>
