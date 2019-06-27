@@ -32,16 +32,15 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     @Override
     public ListAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
             View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_list,parent,false);
-
             return new ViewHolder(view);
-            }
+    }
 
     @SuppressLint("ResourceAsColor")
     @Override
     public void onBindViewHolder(@NonNull ListAdapter.ViewHolder holder, int position) {
             String itemName = listItems.get(position);
             holder.tv.setText(itemName);
-            }
+    }
 
     @Override
     public int getItemCount() {
@@ -55,7 +54,6 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         private ViewHolder(@NonNull final View view) {
             super(view);
             tv = view.findViewById(R.id.text_list);
-            //linearLayout=view.findViewById(R.id.Linear);
         }
     }
 }
