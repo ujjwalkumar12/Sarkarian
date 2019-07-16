@@ -30,19 +30,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
+//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_main);
         drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        View hView =  navigationView.inflateHeaderView(R.layout.nav_header_main);
-        ImageView userimage = hView.findViewById(R.id.textimageview);
-        TextView nameview = hView.findViewById(R.id.nav_name);
-        TextView emailview = hView.findViewById(R.id.nav_email);
-
+//        View hView =  navigationView.inflateHeaderView(R.layout.nav_header_main);
+//        ImageView userimage = hView.findViewById(R.id.textimageview);
+//        TextView nameview = hView.findViewById(R.id.nav_name);
+//        TextView emailview = hView.findViewById(R.id.nav_email);
+//
 //        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/Roboto-Regular.ttf");
 //        nameview.setTypeface(custom_font);
 //        emailview.setTypeface(custom_font);
